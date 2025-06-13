@@ -1,50 +1,61 @@
 
 ---
 
-## 🔧 Day 1 Highlights
+## 🧠 Why This Diary?
 
-- Watched key QA fundamentals in the **Simplilearn Manual Testing video** (SDLC, STLC, test cases).  
-- Mapped developer tasks (using DevTools, debugging) to QA terminology.  
-- Created initial **manual test cases** for login flows.  
-- Executed basic UI/API tests using **Chrome DevTools** and **Postman**.
+As someone already building apps, I realized I was *unintentionally doing QA*—using DevTools, testing edge cases, and validating APIs.
 
-_(Check the files under `manual-tests/` and `api-tests/` for details.)_
-
----
-
-## 🎯 Goals This Week
-
-1. **Day 2–3**: Build on manual testing — practice **bug reporting**, create **test plans**, and use **JIRA issue simulation**.  
-2. **Day 4–5**: Begin API automation with **Postman scripting** and explore **Selenium** setup.  
-3. **Day 6–7**: Implement a basic **Playwright or Selenium test**, and polish repo for job applications.
+This repo:
+- 📖 Logs daily or weekly QA learning progress
+- 🧪 Stores test artifacts like test cases, Postman collections, bug logs
+- 🚀 Tracks the shift from manual → API → automation testing
 
 ---
 
-## 🛠️ How to Use
+## 🔍 Topics Covered So Far
 
-- Browse **`manual-tests/`** to see test case examples and QA organization.  
-- Import the `.postman_collection.json` file into Postman to review or re-run API tests.  
-- Watch this space — automated tests will go into `automation-tests/` soon.
-
----
-
-## 📸 Screenshots & Output
-
-*(Add screenshots or test output logs here as the repo grows.)*
+- ✅ Manual UI Testing
+- ✅ Writing structured test cases
+- ✅ API testing with Postman
+- 🟡 Bug Reporting formats (in progress)
+- 🟡 Preparing for Selenium/Playwright automation
+- 🟡 JIRA workflows (coming soon)
 
 ---
 
-## 📝 Notes
+## 🔧 Sample Entry: Day 1 (June 13, 2025)
 
-- This README is inspired by effective project documentation practices.  
-- Testing diaries help demonstrate real engagement—much stronger than code alone.
+- Watched Simplilearn’s Manual Testing course
+- Learned about SDLC, STLC, types of testing
+- Wrote test cases for login flow in `yaalnits-pos`
+- Ran 3 API checks in Postman (200, 401, 403 scenarios)
+
+_See `logs-and-diary/day1-summary.md` for detailed notes_
 
 ---
 
-## 📬 Feedback & Collaboration
+## 🛠️ How to Use This Repo
 
-Feel free to comment on test strategies or suggest tooling improvements.  
-This repo is a work-in-progress and will clear more QA-specific artifacts weekly.
+- Browse `manual-tests/` and `api-tests/` for examples of real-world QA test documentation  
+- Import any Postman collections under `api-tests/`  
+- Track my progress through the `logs-and-diary/` folder  
+
+This repo grows every week as I explore more tools and techniques.
+
+---
+
+## 🎯 Upcoming Focus Areas
+
+- Create reusable bug report templates
+- Try UI automation with Selenium (Python or JS)
+- Learn JIRA-style workflow for test case and bug tracking
+- Explore test management tools like TestRail
+
+---
+
+## 📬 Feedback & Suggestions
+
+This is a live learning repo — feedback, testing tips, and improvement suggestions are welcome!
 
 ---
 
