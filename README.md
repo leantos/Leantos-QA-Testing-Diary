@@ -1,83 +1,53 @@
-# QA-Testing-Diary
-
-Welcome to my week-long journey through the world of QA Testing! This repository documents my daily progress, learnings, code samples, and resources as I dive into both manual and automated QA testing.
 
 ---
 
-## 📅 Table of Contents
+## 🔧 Day 1 Highlights
 
-- [About](#about)
-- [Daily Log](#daily-log)
-- [Topics Covered](#topics-covered)
-- [Key Resources](#key-resources)
-- [Sample Test Cases](#sample-test-cases)
-- [Reflections & Next Steps](#reflections--next-steps)
+- Watched key QA fundamentals in the **Simplilearn Manual Testing video** (SDLC, STLC, test cases).  
+- Mapped developer tasks (using DevTools, debugging) to QA terminology.  
+- Created initial **manual test cases** for login flows.  
+- Executed basic UI/API tests using **Chrome DevTools** and **Postman**.
 
----
-
-## About
-
-This project is a 7-day documentation of my self-guided crash course in QA Testing. The objective is to build a solid foundation in both manual and automated testing, exploring tools, techniques, and best practices.
+_(Check the files under `manual-tests/` and `api-tests/` for details.)_
 
 ---
 
-## Daily Log
+## 🎯 Goals This Week
 
-| Day | Focus Area | Summary |
-|-----|------------|---------|
-| 1 | Introduction to QA & Manual Testing Basics |  |
-| 2 | Writing Test Cases & Bug Reporting |  |
-| 3 | Exploratory Testing & Test Planning |  |
-| 4 | Introduction to Automation & Tools (e.g., Selenium, Cypress) |  |
-| 5 | Writing Automated Tests |  |
-| 6 | CI/CD for QA & Test Reporting |  |
-| 7 | Review, Practice, and Final Thoughts |  |
+1. **Day 2–3**: Build on manual testing — practice **bug reporting**, create **test plans**, and use **JIRA issue simulation**.  
+2. **Day 4–5**: Begin API automation with **Postman scripting** and explore **Selenium** setup.  
+3. **Day 6–7**: Implement a basic **Playwright or Selenium test**, and polish repo for job applications.
 
 ---
 
-## Topics Covered
+## 🛠️ How to Use
 
-- QA Fundamentals
-- Manual Testing Techniques
-- Writing Effective Test Cases
-- Bug Reporting
-- Exploratory Testing
-- Test Planning
-- Introduction to Automation (Selenium, Cypress, etc.)
-- Writing and Running Automated Tests
-- Integrating QA with CI/CD
-- Test Reporting and Metrics
+- Browse **`manual-tests/`** to see test case examples and QA organization.  
+- Import the `.postman_collection.json` file into Postman to review or re-run API tests.  
+- Watch this space — automated tests will go into `automation-tests/` soon.
 
 ---
 
-## Key Resources
+## 📸 Screenshots & Output
 
-- [Selenium Official Documentation](https://www.selenium.dev/documentation/)
-- [Cypress Docs](https://docs.cypress.io/)
-- [Software Testing Help](https://www.softwaretestinghelp.com/)
-- [Guru99 Testing Tutorials](https://www.guru99.com/software-testing.html)
-- [Awesome Software Testing](https://github.com/TheJambo/awesome-testing)
+*(Add screenshots or test output logs here as the repo grows.)*
 
 ---
 
-## Sample Test Cases
+## 📝 Notes
 
-```markdown
-| Test Case ID | Title | Steps | Expected Result | Status |
-|--------------|-------|-------|----------------|--------|
-| TC-001 | Login with valid credentials | 1. Open login page<br>2. Enter valid user<br>3. Enter valid password<br>4. Click login | User is logged in and dashboard loads | Pass/Fail |
-```
+- This README is inspired by effective project documentation practices.  
+- Testing diaries help demonstrate real engagement—much stronger than code alone.
 
 ---
 
-## Reflections & Next Steps
+## 📬 Feedback & Collaboration
 
-- What went well
-- What was challenging
-- Plans for deeper learning or specialization
+Feel free to comment on test strategies or suggest tooling improvements.  
+This repo is a work-in-progress and will clear more QA-specific artifacts weekly.
 
 ---
 
-## License
+## 📄 License
 
-This repository is for personal learning and documentation purposes.
+MIT © 2025
